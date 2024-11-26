@@ -4,3 +4,7 @@
 .nav-link{
     margin-left: 40px;
 }
+
+.container-sm {
+    background: pink;
+}
