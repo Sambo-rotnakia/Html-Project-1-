@@ -1,10 +1,10 @@
-.navbar-brand img{
-    width: 70px;
-}
-.nav-link{
-    margin-left: 40px;
-}
 
-.container-sm {
-    background: pink;
-}
+  .nav-pills .nav-link.btn-success {
+    background-color: white; /* Bootstrap's green */
+    color: black;
+  }
+  
+  .nav-pills .nav-link.btn-success.active {
+    background-color: #198754; /* Active green color */
+ 
+  }
