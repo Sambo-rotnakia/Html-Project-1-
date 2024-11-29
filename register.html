@@ -1,78 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Register</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: black;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    .register-container {
-      background-color: #e9f0fb;
-      border-radius: 10px;
-      padding: 30px 30px;
-      box-shadow: 10px 10px 10px 9px green;
-      width: 250px;
-      text-align: center;
-      width: 20%;
-    }
-    .register-container h1 {
-      margin-bottom: 20px;
-      font-size: 24px;
-      color: #333;
-    }
-    .register-container input[type="text"],
-    .register-container input[type="email"],
-    .register-container input[type="password"] {
-      width: 70%;
-      padding: 10px;
-      margin-bottom: 15px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      font-size: 14px;
-    }
-    .register-container button {
-      width: 100%;
-      padding: 10px;
-      background-color: #4a90e2;
-      border: none;
-      border-radius: 5px;
-      color: white;
-      font-size: 16px;
-      cursor: pointer;
-    }
-    .register-container button:hover {
-      background-color: #357ac4;
-    }
-    .register-container a {
-      color: #4a90e2;
-      text-decoration: none;
-      font-size: 14px;
-    }
-    .register-container a:hover {
-      text-decoration: underline;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <title>Login</title>
 </head>
 <body>
-  <div class="register-container">
-    <h1>Register</h1>
-    <form>
-      <input type="text" placeholder="Name" required>
-      <input type="email" placeholder="Email" required>
-      <input type="password" placeholder="Password" required>
-      <input type="password" placeholder="Confirm Password" required>
-      <button type="submit"><a href="index.html" style="color: black;">Sign Up</a></button>
-    </form>
-    <p>Have an Account? <a href="login.html">Login Here</a></p>
-  </div>
+   
+<section class="bg-black py-3 py-md-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-5 col-xxl-4">
+          <div class="card border border-light-subtle rounded-3 shadow-sm">
+            <div class="card-body p-3 p-md-4 p-xl-5">
+              <div class="text-center mb-3">
+                <a href="#!">
+                  <img src="logo.jpg" alt="BootstrapBrain Logo" width="175" height="175">
+                </a>
+                
+              </div>
+              <h2 class="fs-6 fw-normal text-center text-secondary mb-4">Please Register your account</h2>
+              <form action="#!">
+                <div class="row gy-2 overflow-hidden">
+                    <div class="col-12">
+                    <div class="form-floating mb-3">
+                      <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com" required>
+                      <label for="email" class="form-label">Name</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-floating mb-3">
+                      <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com" required>
+                      <label for="email" class="form-label">Email</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-floating mb-3">
+                      <input type="password" class="form-control" name="password" id="password" value="" placeholder="Password" required>
+                      <label for="password" class="form-label">Password</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-floating mb-3">
+                      <input type="password" class="form-control" name="password" id="password" value="" placeholder="Password" required>
+                      <label for="password" class="form-label">Confirm Password</label>
+                    </div>
+                  </div>
+                  
+                  <div class="col-12">
+                    <div class="d-grid my-3">
+                      <button class="btn btn-primary btn-lg" type="submit">Confirm</button>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <p class="m-0 text-secondary text-center">Have account log in here <a href="login.html" class="link-primary text-decoration-none">Log in</a></p>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
