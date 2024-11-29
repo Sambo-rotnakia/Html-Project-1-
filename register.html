@@ -1,11 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #c10000, #2521f5);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .register-container {
+      background-color: #e9f0fb;
+      border-radius: 10px;
+      padding: 20px 30px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      width: 00px;
+      text-align: center;
+      width: 20%;
+    }
+    .register-container h1 {
+      margin-bottom: 20px;
+      font-size: 24px;
+      color: #333;
+    }
+    .register-container input[type="text"],
+    .register-container input[type="email"],
+    .register-container input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+    .register-container button {
+      width: 100%;
+      padding: 10px;
+      background-color: #4a90e2;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .register-container button:hover {
+      background-color: #357ac4;
+    }
+    .register-container a {
+      color: #4a90e2;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .register-container a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-    <h2>hewllo</h2>
+  <div class="register-container">
+    <h1>Register</h1>
+    <form>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      <input type="password" placeholder="Confirm Password" required>
+      <button type="submit">Sign Up</button>
+    </form>
+    <p>Have an Account? <a href="#">Login Here</a></p>
+  </div>
 </body>
 </html>
