@@ -10,33 +10,37 @@
     <link rel="icon" href="logo.jpg" type="image/x-icon" />
 </head>
 <body>
-  <nav class="navbar shadow-lg p-3 mb-5 bg-body rounded">
+
+<div class="all">
+  <nav class="navbar shadow-lg p-4 bg-black "">
     <div class="container-fluid">
-      <div class="nav nav-pills"  id="nav-tab" role="tablist">
-        <button class="nav-link active btn btn-success " id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
-        <button class="nav-link  btn btn-success  " id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Details</button>
-        <button class="nav-link  btn btn-success " id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
+      <div class="nav nav-pills "  id="nav-tab" role="tablist" style="margin-left: 100px;   box-shadow:4px 4px 8px green;">
+        <button class="nav-link active bg-black btn btn-success " style="color: white;" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
+        <button class="nav-link bg-black btn btn-success  " style="color: white;"id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Details</button>
       </div>
-      <div class="d-flex justify-content-center text-uppercase fw-bolder fs-5">Advance Tech</div>
+      <div class="d-flex justify-content-center text-uppercase fw-bolder fs-5 " style="color: white; margin-left: 100px;">Advance Tech</div>
       <form class="d-flex" role="search">
         <input class="form-control me-2 mt-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <button class="btn btn-outline-white" type="submit" style="color: white;">Search</button>
+        <button class="btn btn-outline-white" style="margin-left: 50px; " type="submit" style="color: white;"><a href="login.html">Login</a></button>
       </form>
     </div>
    
   </nav>
-    <div class="tab-content" id="nav-tabContent">
+</div>
+
+    <div class="tab-content bg-black" id="nav-tabContent">
       <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
           <div class="carousel-inner">
-            <div class="carousel-item active " style="max-width: 50%; margin-left:390px;"> 
-              <img src="logo.jpg" class="d-block w-100 mw-50" alt="...">
+            <div class="carousel-item active " style="height: 50%; width:50%; margin-left: 390px;"> 
+              <img src="razor.webp" class="d-block w-100 mw-50" alt="...">
             </div>
-            <div class="carousel-item" style="max-width: 50%; margin-left:390px;">
-              <img src="logo.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-item" style="height: 50%; width:50%; margin-left: 390px;" >
+              <img src="fantech.jpg" class="d-block w-100" alt="...">
             </div>
-            <div class="carousel-item" style="max-width: 50%; margin-left:390px;">
-              <img src="logo.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-item" style="height: 50%; width:50%; margin-left: 390px;" >
+              <img src="raer.webp" class="d-block w-100" alt="...">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -48,48 +52,209 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
+        <footer class="bg-body-tertiary text-center">
+          <!-- Grid container -->
+          <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+              <!-- Facebook -->
+              <a
+              data-mdb-ripple-init
+                class="btn text-white btn-floating m-1"
+                style="background-color: #3b5998;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+        
+              <!-- Twitter -->
+              <a
+                data-mdb-ripple-init
+                class="btn text-white btn-floating m-1"
+                style="background-color: #55acee;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-twitter"></i
+              ></a>
+        
+              <!-- Google -->
+              <a
+                data-mdb-ripple-init
+                class="btn text-white btn-floating m-1"
+                style="background-color: #dd4b39;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-google"></i
+              ></a>
+        
+              <!-- Instagram -->
+              <a
+                data-mdb-ripple-init
+                class="btn text-white btn-floating m-1"
+                style="background-color: #ac2bac;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-instagram"></i
+              ></a>
+        
+              <!-- Linkedin -->
+              <a
+                data-mdb-ripple-init
+                class="btn text-white btn-floating m-1"
+                style="background-color: #0082ca;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <!-- Github -->
+              <a
+                data-mdb-ripple-init
+                class="btn text-white btn-floating m-1"
+                style="background-color: #333333;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-github"></i
+              ></a>
+            </section>
+            <!-- Section: Social media -->
+          </div>
+          <!-- Grid container -->
+        
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2020 Copyright:
+            <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
       </div>
-      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">  
-        <div  class="row align-items-center container-md overflow hidden justify-content-center"  style="margin-top: 100px; margin-left: 90px;">
+
+      <div class="tab-pane fade bg-white" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">  
+        <div  class="row align-items-center container-md overflow hidden justify-content-center"  style="margin-top: 200px; margin-bottom: 100px; margin-left: 90px; ">
         <div class="col">
-          <div class="card" style="width: 18rem;">
-            <img src="" class="img-fluid img-thumbnail" alt="">
+          <div class="card" style="width: 18rem;   box-shadow: 10px 10px 10px 9px green;">
+            <img src="headsetrazor.webp" class="img-fluid img-thumbnail" alt="">
             <div class="card-body">
-              <h5 class="card-text"></h5>
-              <p class="card-text"></p>
+              <h5 class="card-text">RAZER Barracuda X Chroma</h5>
+              <p class="card-text">
+                Our patented 3-part driver design pushes out exceptional highs, mids, and lows that don’t muddy,
+                 providing deeper gaming immersion and a more dynamic listening experience for music and videos.</p>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card" style="width: 18rem;">
-            <img src="" class="img-fluid img-thumbnail" alt="">
+          <div class="card" style="width: 18rem;    box-shadow: 10px 10px 10px 9px green;">
+            <img src="razormouse.webp" class="img-fluid img-thumbnail" alt="">
             <div class="card-body">
-              <h5 class="card-text"></h5>
-              <p class="card-text"></p>
+              <h5 class="card-text">Razer Viper V3 Pro</h5>
+              <p class="card-text">Enable deeper control of your DPI output and mouse input to best suit your playstyle. 
+                Typically, gamers use just one DPI setting based on their preference.
+                Best for Fps gaming perfomance with 8000dpi with 120hz refresh rate.</p>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card" style="width: 18rem;">
-            <img src="" class="img-fluid img-thumbnail" alt="">
+          <div class="card" style="width: 18rem;   box-shadow: 10px 10px 10px 9px green;">
+            <img src="fanctechkey.jpg" class="img-fluid img-thumbnail" alt="">
             <div class="card-body">
-              <h5 class="card-text"></h5>
-              <p class="card-text"></p>
+              <h5 class="card-text"> K614L FIGHTER III</h5>
+              <p class="card-text"> Fantech Wired Gaming Keyboard 
+                ILLUMINATION ALLOY COVER With Multimedia 
+                26 keys anti-ghosting 
+                3 Mode RGB backlist Mode 
+                Diffused Side Cover for Better Lighting Effect </p>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card" style="width: 18rem;">
-            <img src="" class="img-fluid img-thumbnail" alt="">
+          <div class="card" style="width: 18rem;   box-shadow: 10px 10px 10px 9px green;">
+            <img src="monitor.png" class="img-fluid img-thumbnail" alt="">
             <div class="card-body">
-              <h5 class="card-text"></h5>
-              <p class="card-text"></p>
-            </div>
+              <h5 class="card-text">MSI Monitors
+                G274F</h5>
+              <p class="card-text">MSI G274F is equipped with a 180hz refresh rate and 1ms response time Rapid IPS panel which has the benefit in fast moving game genres such as first person 
+                shooters, fighters, racing sims,
+                 real-time strategy, and sports.</p>
           </div>
         </div>
       </div>
+      <footer class="bg-body-tertiary text-center">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+            data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #3b5998;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #55acee;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #dd4b39;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #ac2bac;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #0082ca;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <!-- Github -->
+            <a
+              data-mdb-ripple-init
+              class="btn text-white btn-floating m-1"
+              style="background-color: #333333;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2020 Copyright:
+          <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
     </div>
-      <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">...</div>
+      
     </div>
 
   
