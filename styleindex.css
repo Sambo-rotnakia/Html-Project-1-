@@ -5,12 +5,16 @@
   }
   
   .nav-pills .nav-link.btn-success.active {
-    background-color: #198754; /* Active green color */
+    background-color: grey; /* Active green color */
  
   }
   .carousel-control-prev-icon{
-    background-color: #198754;
+    background-color: grey;
   }
   .carousel-control-next-icon{
-    background-color: #198754;
+    background-color: grey;
   }
+
+.carousel-inner{
+  margin-top: 10%;
+}
